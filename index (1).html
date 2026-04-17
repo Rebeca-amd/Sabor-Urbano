@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sabor Urbano Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Sabor Urbano 🛍️</h1>
+</header>
+
+<section class="productos">
+
+  <div class="producto">
+    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=80">
+    <h3>Reloj Urbano</h3>
+    <p>$499</p>
+    <button onclick="agregarCarrito('Reloj Urbano', 499)">Agregar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=400&q=80">
+    <h3>Tenis Street</h3>
+    <p>$899</p>
+    <button onclick="agregarCarrito('Tenis Street', 899)">Agregar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=400&q=80">
+    <h3>Lentes Cool</h3>
+    <p>$299</p>
+    <button onclick="agregarCarrito('Lentes Cool', 299)">Agregar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80">
+    <h3>Smartphone</h3>
+    <p>$3500</p>
+    <button onclick="agregarCarrito('Smartphone', 3500)">Agregar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80">
+    <h3>Audífonos</h3>
+    <p>$799</p>
+    <button onclick="agregarCarrito('Audífonos', 799)">Agregar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&q=80">
+    <h3>Mochila</h3>
+    <p>$650</p>
+    <button onclick="agregarCarrito('Mochila', 650)">Agregar</button>
+  </div>
+
+</section>
+
+<section class="carrito">
+  <h2>🛒 Carrito de compras</h2>
+  <ul id="lista-carrito"></ul>
+  <h3>Total: $<span id="total">0</span> MXN</h3>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
